@@ -1,4 +1,10 @@
-function convertCelsiusToFahrenheit() {
+
+
+
+
+function convertValues(event) 
+{
+    event.preventDefault();
     // Get the value entered by the user
     var celsius = parseFloat(document.getElementById('celsiusInput').value);
 
